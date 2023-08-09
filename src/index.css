@@ -1,0 +1,23 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+*{
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
+}
+input{
+  outline: none;
+  border: none;
+}
+ul, li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

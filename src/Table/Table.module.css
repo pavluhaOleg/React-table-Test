@@ -1,0 +1,50 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.table{
+max-width: 1079px;
+/* height: 100%; */
+margin: 0;
+border-collapse: collapse;
+color: #474955;
+font-size: 13px;
+outline: 1px solid '#E3E6EC';
+font-weight: 600;
+line-height: 18px;
+}
+tr{
+  height: 84px;
+  margin: 0;
+}
+.tdUserid{
+  width: 10%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgba(227, 230, 236, 1);
+}
+.tdTitle{
+  width: 50%;
+  height: auto;
+  letter-spacing: 0.3px;
+  
+  padding: 0 0 0 13px;
+  border: 1px solid rgba(227, 230, 236, 1);
+}
+.tdBody{
+ width: 40%;
+  height: auto;
+  letter-spacing: 0;
+  padding: 0 0 0 12px;
+  border: 1px solid rgba(227, 230, 236, 1);
+}
+
+@media(max-width:888px){
+  .tdTitle{
+    width: 27%;
+  }
+}

@@ -1,0 +1,22 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+ 
+  .wrapperProject{
+    max-width: 1232px;
+    margin: 30px auto;
+    padding: 24px 64px 64px;
+    -webkit-box-shadow: 1px 1px 17px 17px rgba(230, 231, 234, 0.78);
+            box-shadow: 1px 1px 17px 17px rgba(230, 231, 234, 0.78);
+    position: relative;
+  }
+  
+  @media(max-width: 1000px){
+    .wrapperProject{
+      padding: 24px 24px 64px;
+    }
+  }

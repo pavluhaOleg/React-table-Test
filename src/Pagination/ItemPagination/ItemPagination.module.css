@@ -1,0 +1,41 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+.number{
+   display: inline-block;
+   font-family: 'PT Sans', sans-serif;
+   font-weight: 700;
+   font-style: italic;
+   font-size: 18px;
+   cursor: pointer;
+
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+}
+.active{
+  color: #7EBC3C;
+}
+.prev, .next {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #474955;
+  text-decoration: none;
+}
+
+@media(max-width: 830px){
+.number{
+  font-size: 16px;
+}
+}
+
+@media(max-width: 600px){
+.number{
+  margin-right: 13px;
+}
+}
